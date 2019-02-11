@@ -1,0 +1,23 @@
+.solution__hero {
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 600px;
+  }
+  
+  
+  .solution__hero h1 {
+    font-weight: 300;
+  }
+  .solution__hero p {
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+  
+  
+  .workbook__item {
+    border-bottom: solid 1px #ecf0f1;
+  }
+  
+  .workbook__item img {
+    min-width: 100%;
+  }

@@ -1,0 +1,76 @@
+
+title: Your awesome title
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+nav:
+  - text: Our Products
+    link: /products/
+  - text: Enterprise Solutions
+    link: /enterprise-solutions/
+  - text: Projects
+    link: /projects/
+  - text: Contact
+    link: /contact/
+
+
+footer_cta: Let's work together
+footer_cta_link: /contact/
+footer_content_1: 3,500,000+ users registered since 2008
+footer_content_2: We create products that help your life to look even better.
+footer_navigation_1_title: About
+footer_navigation_1:
+    - text: Contact
+      link: /contact/
+    - text: Enterprise Solutions
+      link: /enterprise-solutions/
+    - text: Our Products
+      link: /products/
+    - text: Projects
+      link: /projects/
+footer_navigation_2_title: Terms
+footer_navigation_2:
+    - text: Privacy Policy
+      link: /privacy-policy/
+    - text: Special Terms
+      link: /special-terms/
+    - text: Terms Of Service
+      link: /
+footer_navigation_3_title: Follow
+footer_navigation_3:
+    - text: linkedin
+      link: /
+    - text: Twitter
+      link: /
+    - text: Youtube
+      link: /
+
+
+collections:
+  projects:
+    output: true
+
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

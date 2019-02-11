@@ -1,0 +1,86 @@
+@import "font";
+@import "includes/home";
+@import "includes/product";
+@import "includes/solution";
+@import "includes/projects";
+@import "includes/projects_single";
+@import "includes/contact";
+@import "includes/footer";
+@import "includes/navbar";
+@import "includes/terms";
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Display", helvetica, Arial, sans-serif;
+}
+  
+img {
+  max-width: 100%;
+}
+
+.section-title {
+  font-weight: 100;
+}
+
+.section-subtitle {
+  font-weight: 200;
+}
+
+.terms__single {
+
+  h1:first-of-type {
+    text-transform: uppercase;
+    color: #2c3e50;
+  }
+
+}
+
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    padding: 3rem 0;
+    border-bottom: solid 1px #d9d9d9;
+
+    @media (min-width: 768px) {
+      .projects__hero {
+        padding: 6rem 0;
+      }
+    }
+
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    background-color: #a5a5a5;
+    border-radius: 50%;
+  }
+
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  }
+  

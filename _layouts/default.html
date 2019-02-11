@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+
+    <main role="main">
+        {{ content }}
+
+        {% include footer.html %}
+   </main>
+  
+    <!-- <script src=' {{ "/js/main.js" | prepend: site.baseurl }}'></script> -->
+  </body>
+</html>

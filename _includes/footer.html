@@ -1,0 +1,39 @@
+<footer class="footer pb-5">
+    <a href=" {{site.footer_cta_link}}" class="footer__banner py-4 mb-5 text-center">
+        {{site.footer_cta}}
+    </a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="mb-4" src="/img/logo-footer.png">
+                <h4>{{site.footer_content_1}}</h4>
+                <p>{{site.footer_content_2}}</p>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h4 class="mb-3" >{{site.footer_navigation_1_title}}</h4>
+                <div class="footer__links">
+                    {% for item in site.footer_navigation_1 %}
+                    <a href="{{item.link}}">{{item.text}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h4 class="mb-3" >{{site.footer_navigation_2_title}}</h4>
+                <div class="footer__links">
+                    {% for item in site.footer_navigation_2 %}
+                    <a href="{{item.link}}">{{item.text}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h4 class="mb-3" >{{site.footer_navigation_3_title}}</h4>
+                <div class="footer__links">
+                    {% for item in site.footer_navigation_3 %}
+                    <a href="{{item.link}}">{{item.text}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

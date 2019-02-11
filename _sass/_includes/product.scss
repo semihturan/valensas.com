@@ -1,0 +1,107 @@
+.product__hero {
+    background-size: cover;
+    background-position: center;
+    min-height: 475px;
+    margin-bottom: 50px;
+    color: #fff;
+    @media (min-width: 768px) {
+      margin-bottom: 100px;
+    }
+  }
+  
+  .product__hero-container {
+    position: relative;
+  }
+  
+  .product__hero-phone {
+    position: absolute;
+    right: 0;
+    max-width: initial;
+    display: none;
+  
+    @media (min-width: 768px) {
+      right: 50px;
+      display: block;
+    }
+  }
+  
+  .products_info {
+   border-bottom: solid 1px #ecf0f1;
+  }
+  
+  .product__hero h1 {
+    font-weight: 300;
+  }
+  .product__hero h2 {
+    font-weight: 200;
+  }
+  
+  .product__feature {
+    display: flex;
+    border-bottom: solid 1px #ecf0f1;
+  }
+  .product__feature:last-of-type{
+    border: none;
+  }
+  
+  .product__icon {
+  flex-basis: 30%;
+  }
+  .product__detail {
+    flex-basis: 70%;
+  }
+  
+  .product__details h3 {
+    font-size: 22px;
+    color: #34495e;
+    font-size: 300;
+  }
+  .product__details p {
+    color: #7f8c8d;
+    font-size: 200;
+  }
+  
+  #iphoneslider .carousel-item {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    text-align: center;
+    border-bottom: solid transparent 0px;
+  }
+  #iphoneslider .carousel-item > img {
+    position: static;
+    top: auto;
+    left: auto;
+    min-width: auto;
+    height: auto;
+  }
+  
+  .product__vdp {
+    border-bottom: solid 1px #ecf0f1;
+  }
+  .product__vdp h2 {
+    font-weight: 300;
+  }
+  .product__vdp h3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  
+  .product__vdp p {
+    font-weight: 200;
+  }
+  
+  
+  .workbook {
+  
+  }
+  .workbook h2 {
+    color: #34495e;
+    font-weight: 300;
+    font-size: 1.625rem;
+  }
+  .workbook p {
+    color: #7f8c8d;
+    font-weight: 200
+  }
+  
+  

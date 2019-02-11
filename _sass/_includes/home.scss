@@ -1,0 +1,164 @@
+
+  .heroCarousel h2 {
+    font-weight: 300;
+  }
+  
+  .heroCarousel p {
+    font-weight: 200;
+    @media( min-width: 768px) {
+        max-width: 70%;
+    }
+  }
+  .heroCarousel .carousel-item {
+    background-size: cover;
+  }
+  
+  
+  .heroCarousel .carousel-indicators {
+    position: absolute;
+    bottom: -50px;
+  }
+  
+  .btn-valensas {
+    border: solid 1px #000;
+    border-radius: 0;
+    padding: 0.5rem 1.25rem;
+  }
+  
+  .highlight-text {
+    color: #2a60ba;
+  }
+  
+  .brand-color {
+    color: #2e4053;
+  }
+  .brand-alt {
+    color: #005cab;
+  }
+  
+  .creative_feature h3 {
+    font-size: 1.25rem;
+  }
+  
+  .creative_feature p,
+  .casestudies p {
+    font-weight: 200;
+  }
+  
+  .creative_feature a {
+    font-weight: 600;
+  }
+  
+  .casestudies {
+    background-color: #f8f8f8;
+  }
+  
+  
+  .carousel-control-next-icon:after
+  {
+    content: '\203A';
+    font-size: 40px;
+    color: #333;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '\2039';
+    font-size: 40px;
+    color: #333;
+  }
+  
+  .casestudies .carousel-item {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .casestudies .carousel-indicators {
+    bottom: -40px;
+    @media( min-width: 768px) {
+      padding-right: 15px;
+      bottom: 0;
+      left: auto;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  
+  .casestudies h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .casestudies p {
+    font-size: 0.875rem;
+  }
+  
+  
+  .quote {
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #273646;
+  
+    &::before {
+      position: absolute;
+      top: -25px;
+      left: 25px;
+      content: '';
+      height: 26px;
+      width: 26px;
+      background-image: url(/img/quote-mark.png);
+      background-repeat: no-repeat;
+      background-size: 26px;
+      @media( min-width: 768px) {
+        top: -25px;
+        left: 50px;
+      }
+    }
+    &::after {
+      position: absolute;
+      bottom: 25px;
+      right: 50px;
+      content: '';
+      height: 26px;
+      width: 26px;
+      background-image: url(/img/quote-mark.png);
+      background-repeat: no-repeat;
+      background-size: 26px;
+      transform: rotate(180deg);
+      @media( min-width: 768px) {
+        bottom: 25px;
+        right: 50px;
+      }
+    }
+  }
+  
+  .logo-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  
+  .logo-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media( min-width: 768px) {
+      flex-wrap: nowrap;
+      width: 115%;
+      transform: translateX(-7.5%);
+    }
+  }
+  .logo-row img {
+    width: auto;
+    margin: 0 5px;
+  }
+  .logo-row__item {
+  flex-basis: 40%;
+  margin: 15px;
+  @media( min-width: 768px) {
+    flex-basis: 16.5%;
+  }
+  }
+  

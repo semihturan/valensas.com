@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="contact__hero text-center mb-3" style="background-image: url(/img/{{page.hero_bg}});">
+</section>
+
+<section class="contact container py-5 mb-3">
+    <div class="row">
+        {% for item in page.contact %}
+        <div class="col-md-4 py-5 pl-5 contact__item">
+            <h3 class="mb-4">{{item.title}}</h3>
+            <address class="mb-4">
+                {% for line in item.address %}
+                    <span>{{line.line}}</span><br>
+                {% endfor %}
+            </address>
+            <div class="contant__details">
+                <span>P: {{item.phone}}</span><br>
+                <span>F: {{item.fax}}</span><br>
+                <span>M: <a href="mail:{{item.mail}}">{{item.mail}}</a></span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
